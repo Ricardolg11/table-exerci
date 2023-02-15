@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" {IF CLASSES}class="classes" {/IF}>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Tabuada</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body onload="carregar()">
+
+  <header>
+    <h1> Tabuada </h1>
+  </header>
+  <section>
+
+    <div>
+      <p> Numero: <input type="Number" name="num" id="txtn">
+        <input type="button" value="Gerar Tabuada" onclick="tabuada()">
+      </p>
+    </div>
+
+    <div>
+      <select name="tabuada" id="seltab" size="10">
+        <option>Digite um numero acima</option>
+      </select>
+    </div>
+
+  </section>
+  <footer>
+    <p> @Ricardolg11 </p>
+  </footer>
+
+  <script src="script.js"></script>
+
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>

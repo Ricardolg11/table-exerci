@@ -1,0 +1,32 @@
+h1 {
+  font-family: "Roboto Mono", monospace;
+  color: white;
+  text-align: center;
+}
+
+body {
+  background: red;
+  font: normal 18pt Arial;
+  background-image: url("https://img.freepik.com/vetores-premium/fundo-de-matematica_23-2148146940.jpg?w=2000");
+}
+
+p {
+  font-family: "Roboto Mono", monospace;
+  color: white;
+}
+
+section {
+  background: white;
+  background-image: url("https://i.pinimg.com/736x/ea/dd/ed/eadded390ed661b028958c84fd9a98e5.jpg");
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
